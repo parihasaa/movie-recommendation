@@ -68,7 +68,7 @@ is_clicked = st.button(label="Get Recommendation")
 
 if is_clicked:
      r=recommend(selected_movie_name)
-     st.header("Recommende movies are:")
+     st.header("Recommended movies are:")
 
      for i in r:
         st.write(i)
